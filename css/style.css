@@ -18,3 +18,21 @@ h1{
     margin-bottom: 40px;
 }
 /* float cards */
+.cards{
+    margin-top: 30px;
+    background-color: #000;
+    float:left;
+    width: calc(100% / 3);
+    color: #fff;
+}
+.post{
+    
+}
+img{
+    width: 100px;
+    height: auto;
+    float: left;
+}
+.email{
+    color: #8bd3dd;
+}
