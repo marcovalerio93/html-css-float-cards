@@ -5,34 +5,42 @@
     box-sizing: border-box;
 }
 .container{
-    width: 60%;
+    width: 80%;
     margin: auto;
+    font-family:'Fredoka', sans-serif;
+
 }
-.testo{
+header{
     text-align: center;
-    margin-top: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 5px;
 }
 h1{
     color: #e53170;
     margin-bottom: 40px;
 }
+
 /* float cards */
 .cards{
-    margin-top: 30px;
     background-color: #000;
     float:left;
     width: calc(100% / 3);
     color: #fff;
+    box-shadow: #cecece;
+    border: solid 20px;
 }
 .post{
-    
+    padding: 15px 0px;
 }
 img{
+    margin-right: 10px;
     width: 100px;
     height: auto;
     float: left;
 }
 .email{
     color: #8bd3dd;
+}
+
+p{
+    font-weight: 100;
 }
