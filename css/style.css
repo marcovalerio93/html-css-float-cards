@@ -16,36 +16,49 @@ header{
 }
 h1{
     color: #e53170;
+    font-size: 36px;
     margin-bottom: 40px;
 }
 
 /* float cards */
 
 .clearfix::after{
-content: '';
-display: table;
-clear: both;
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.team{
+    margin-top: 40px;
+}
+.contorno{    
+    float:left;
+    width: calc(100% / 3);
+    height: 150px;
+    padding: 0 15px;  
 }
 .cards{
     background-color: #000;
-    float:left;
-    width: calc(100% / 3);
-    color: #fff;
-    border: solid 20px;
+    height: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0px 0px 10px #000;
 }
 .post{
-    padding: 10px 5px;
+    width: calc(100% - 120px);
+    float: right;
+    color: #fff;
 }
 img{
-    margin-right: 10px;
-    width: 100px;
-    height: auto;
+    height: 100px;
     float: left;
 }
-.email{
-    color: #8bd3dd;
+.post h3{
+    margin-top: 10px;
 }
-
-p{
-    font-weight: 100;
+.post a{
+    color: #8bd3dd;
+    margin-bottom: 10px;
+}
+.post p{
+    margin: 10px 0px;
 }
