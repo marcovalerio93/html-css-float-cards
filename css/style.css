@@ -20,16 +20,21 @@ h1{
 }
 
 /* float cards */
+
+.clearfix::after{
+content: '';
+display: table;
+clear: both;
+}
 .cards{
     background-color: #000;
     float:left;
     width: calc(100% / 3);
     color: #fff;
-    box-shadow: #cecece;
     border: solid 20px;
 }
 .post{
-    padding: 15px 0px;
+    padding: 10px 5px;
 }
 img{
     margin-right: 10px;
